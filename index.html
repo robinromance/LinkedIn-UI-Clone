@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Linkedin Clone</title>
+</head>
+<body>
+  <!-- header__start -->
+  <div class="header">
+      <div class="header__left">
+          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAY1BMVEUAd7f///8AcbQAbLIAb7Pp9PkAdbabvdq20eXl7/ZAjMEAc7U+hb3w9vmpyOHu8/grf7sAabHP4O3X5fBjnMkwh79WlsaIsNPD2Oluo81qm8hdk8ShxN6BsNSOtdZOjsJ5qdDNqqL8AAADoklEQVR4nO2bW5uiMAyGoY0FrDIUEPGA+P9/5aIzDAIpRWZId/fpdzE3RfJOQ9OkB8//VBbkB49MhzzIvgx7z79pwUAKOgAhgRVpBxAAozPeikHQAhwVvfmH1PETILBkvyEIHgAp2LLveZA2AIUF/7dihe9lFu03BJkXWPRA44PAy6VNAJl7B8L4M5YgDL//nAQozhhXYMdFku2qMmqU3raSfqAKXpf+t9KcE9uXPPR7KhnpWJVJ5A/0URO6QSbZ0D4tAUvH9n0/IrPPA8y+74dEWYPwcPu+v6UJCKDpgKYLaKZNGI2Ab5HYFwetfT+nGAjsrge4UvgArnoAko8AYj1ASeGCSQCSHrjpAWIKAFnoASoKACH0AAeSORlKnf2IZj6UZx3AkWhCVkg28NCGKi+T9R4FIAnET/EKs38lTEwxAkr7zUg4Db1QEZcnsOsNxrQmL+ElL+K2F8IcbFTwkqskP93PieLW6nchGaNcvfz/9JPOe++3/acbz4FSnAMAVwqYeB9EKC/pi7+OA5CDVq+LEkJycamuabR5DKJ9lF6rWvI3R5FMyo+B0m33DjhGw+b4qxMEiDwcFhb7KK7fWuMQHjIfbpK2GU3cy2ekluyumUrT4o3BzE7YK25tMGSojQcfrzXmn4jJ7GiKV4dhOxuxDda8lYJP5LON9qe589lCADaR0H/qNpNgGYCaKKlaneZ5YRFAMt3/X5q3M7AIYKKmfdE+mRMRFgHgeeRIs6q7RQBzdZrRBasCZDOWulYF8M/mLlgXYMZXsC7AjKWulQGOxi5YGcDsg5UBuol9FYC0Ol8u56qcCEyFaRz8ACDcKZBSClCJfm40fgTLAQrVpT1KU+W/vOnXAfoVJKs1j0VrAQzzDThqAExJ/0KAbPSPKdwJ+906AJfRx800XTB+8jcA0vFbRYJ3gWk+WgaALaNqFtxMOcEygARxLMeDwd2QGS4CQA+C4CVOV+P8JgC6mSEvKIDp0MgiADS+CjwWmbZ+FgGg66hihw6DVQC22Jf9twLEhsnAATgAB+AAHIADcAAOwAE4AAfgAByAA3AA1gEYep7OsHuOL36Oj+k/ZFojEh5yuj3qzg9gS1+aFXD0gOiHccdCJHE0UPiy5wr3bNgcaM6JCFYNH41K1FsDcSZ6Yr3zDwz6rQL0J82AD56de6Ck/6vp1unF73eetSPrV72sX3azft3P+oVH61c+7V96tX7t1/7FZ/tXv+1ffvctXv//A/jiRskUUNZEAAAAAElFTkSuQmCC" alt="">
+        <div class="header__search">
+          <i class="material-icons">search</i>
+          <input type="text" placeholder="search">
+        </div>
+      </div>
+      <!-- header__right -->
+    <div class="header__right">
+      <div class="header__option">
+        <i class="material-icons">home</i>
+        <h3>Home</h3>
+      </div>
+      <div class="header__option">
+        <i class="material-icons">groups</i>
+        <h3>My network</h3>
+      </div>
+      <div class="header__option">
+        <i class="material-icons">work</i>
+        <h3>Job</h3>
+      </div>
+      <div class="header__option">
+        <i class="material-icons">mark_unread_chat_alt</i>
+        <h3>Message</h3>
+      </div>
+      <div class="header__option">
+        <i class="material-icons">notifications</i>
+        <h3>Notification</h3>
+      </div>
+      <div class="header__option">
+        <i class="material-icons">account_circle</i>
+        <h3>Me</h3>
+      </div>
+    </div>
+  </div>  
+  <!-- header__end -->
+
+  <!-- main__body__stats -->
+  <div class="body__main">
+  <!-- sidebar__stats -->
+  <div class="sidebar">
+
+    <div class="sidebar__top">
+      <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAHsAuAMBIgACEQEDEQH/xAAbAAADAQEBAQEAAAAAAAAAAAACAwQBBQAGB//EACAQAAMBAAIDAQADAAAAAAAAAAABAgMREhMhYTEEQVH/xAAbAQACAwADAAAAAAAAAAAAAAACAwEEBQAGB//EAB0RAAMBAAMBAQEAAAAAAAAAAAABAgMSEyERBDH/2gAMAwEAAhEDEQA/AJV+j8kJS9lGaKjk9Lt+FOZTmT5opgU5Kljk+EZyByen2+CFAn4NiezLMcxWEF+MAWV9LCzgpiD2cFMQV6KF2DMDFAyYGTAporOxKg3oPUG9TnEDmTuDOhQ5MchKSeZN0BcFPUFyHxCVkrgXUFjkXUhKRisjqBNwXVAm4DUjZsiqDw+0eD4jexHwsr2UZoRHspzL1I7DbKM0N5Fx6RvIvj9KrXoXJThPv2T5rll+Ek0viFaP4inGC7KBGMl2UlW0ZmtjM5KIkHOSiJENFG6PTAxQFMjOoPEruhfUzqN6nmglJHIS5McjWjGglJKYngFoc0C0FxCTEtAVI5i7DUBc/gmkT6IotiLGzBPaT3+mG3+nhqzOdp8LBTn+k+aKYLNI7jY3k8mByFPtnFAkq/jydHCSP+PJ0MUKtFLaivGS3KSbFFuSKlSZerH5yURIvNFEIU5KVsOZC4ClB9SPhXbF8GNDGgKCUkchbQLQVMXVDFAXNHmLbPVQqqGKAXqepirZtUKqhqzFvUG2ItjLoRdDpzA7RdP2eBbPDOAc6eHxeY9P0IzG8huT0Gg+RuS5YhMowC4iq8R0MEdHFEGB0cCvcmZsyzFFmaJMSzIrVJm6lWaKYRNFJDFoK4fTO1tSVSw+fRPFh9vRPWZ9/oNqhVUZdiaoZOYHeFVC6oCrF1Y6czncFVC6oCrF1Q2cwe0OqFVQNUKqx05gvU26E1Rl2Jqx05g9gfJgl0aH1j5vw+TgMVDD5BUHp7Q2WV4Ijn9LcP6CqfBGn8OhgdDE5+LSLM7K1wZO9JHRzaRRGhzo0GzqKeRi/p3SOgtBsWc+NB0aEPIwtt2y+dA+5HNheQjrKF6jqsVVi60FVYycwVqMqxVWBViqsbOYXYMqxVWBVi6scswuwOrFXYFWLqh05kcwrsS6BuwHQ5QSrDdHhTZ4LgWprw+ZVeg1RKrCVgLM9Vq0VzZZjZy5sry0CeZn77eHWz0KY1OXnoPjX6LeJgfq3OpGo2dDmxryUZ2C8Trv6Nvp0Y0Hzoc6LHToKeZma6F60+heQinT6F5PpHWU6spegurEvQCtA1mCrG1YqrF1YutBizGKxtWLdinYLsaoD5h1YuqBqwHQ1QTyNbBbMbM/Q1IUs82aZ1Z4L4W038PjXfsJWSO/Zq0GTkem6al037KM9DmTp9Hxr9GdJkfp38OrGo+NDl56clWVkPE69+nb6dPOynOzm52PixVZGPrZ0osdOhz40+jZ0+iayKGlFy0C8hEtPoXk+g9RVplXcF2T9/oL0+krMhMdVi3fsS9Ae4xZjZY7uC6E9zHYagamNdGci+xqZPEJIYvYxIXA6UQx+aM4PDFJ4H6XEvD8zqzy0EU2CmzUnNHeNdH8K1oPzvkgllWQ7gjH3ts6GdlWdnPzfophgOEY+zOhFj4v6Qwx8NiqhGZqy2NBq0IpbGS2JeaKNlq0N8hLLZvLA60V2UeQx6CGzG3/AKc4IlDXp9B8n0S2weQuKHSijue7ieWbLJ4jpQ9UMliEHIDQ5Iomh8USyOkXSGT4W5KW17R4VH4eEOfR6/Rx8aP/2Q==" alt="">
+      <i class="material-icons sidebar__topavatar">account_circle</i>
+      <h2>robin romance</h2>
+      <h5>robinhipro@gmail.com</h5>
+    </div>
+
+    <div class="sidebar__stats">
+      <div class="sidebar__stat">
+        <p>Who viewed you</p>
+        <p class="sidebar__statNumber">2008</p>
+      </div>
+      <div class="sidebar__stat">
+        <p>Views on post</p>
+        <p class="sidebar__statNumber">2567</p>
+      </div>
+    </div>
+
+    <div class="sidebar__bottom">
+      <p>Recent</p>
+      <div class="sidebar__recentItem">
+        <span class="sidebar__hash">#</span>
+        <p>reactjs</p>
+      </div>
+
+      <div class="sidebar__recentItem">
+        <span class="sidebar__hash">#</span>
+        <p>programming</p>
+      </div>
+
+      <div class="sidebar__recentItem">
+        <span class="sidebar__hash">#</span>
+        <p>softwareengineering</p>
+      </div>
+
+      <div class="sidebar__recentItem">
+        <span class="sidebar__hash">#</span>
+        <p>design</p>
+      </div>
+
+      <div class="sidebar__recentItem">
+        <span class="sidebar__hash">#</span>
+        <p>developer</p>
+      </div>
+      
+    </div>
+
+  </div>
+  
+
+  <!-- feed__starts -->
+  <div class="feed">
+    <div class="feed__inputCondainer">
+      <div class="feed__input">
+        <i class="material-icons">edit</i>
+      <form>
+        <input type="text">
+      </form>
+      </div>
+
+      <div class="feed__inputOptions">
+        <div class="inputOption">
+          <i style="color: #70b5f9;" class="material-icons">image</i>
+          <h4>Photo</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: #e7a33e;" class="material-icons">video_library</i>
+          <h4>Videos</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: #c0cbcb;" class="material-icons">event</i>
+          <h4>Event</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: #7fc15e;" class="material-icons">article</i>
+          <h4>Work Article</h4>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- post__starts -->
+    <div class="post">
+      <div class="post_header">
+        <i class="material-icons sidebar__topavatar">account_circle</i>
+        <div class="post__info">
+          <h2>RobinRomance</h2>
+          <p>Job Discription</p>
+        </div>
+      </div>
+
+      <div class="post_body">
+        <p>Message Here</p>
+
+      </div>
+
+      <div class="feed__inputOptions">
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">thumb_up</i>
+          <h4>like</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">comment</i>
+            <h4>comment</h4>
+
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">share</i>
+          <h4>shere</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">send</i>
+          <h4>send</h4>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- post2 starts -->
+    <div class="post">
+      <div class="post_header">
+        <i class="material-icons sidebar__topavatar">account_circle</i>
+        <div class="post__info">
+          <h2>JijinDenson</h2>
+          <p>Job Discription</p>
+        </div>
+      </div>
+
+      <div class="post_body">
+        <p>Message Here</p>
+
+      </div>
+
+      <div class="feed__inputOptions">
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">thumb_up</i>
+          <h4>like</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">comment</i>
+            <h4>comment</h4>
+
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">share</i>
+          <h4>shere</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">send</i>
+          <h4>send</h4>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- post2 ends -->
+
+    <!-- post3 starts -->
+    <div class="post">
+      <div class="post_header">
+        <i class="material-icons sidebar__topavatar">account_circle</i>
+        <div class="post__info">
+          <h2>LudhiaFernadez</h2>
+          <p>Job Discription</p>
+        </div>
+      </div>
+
+      <div class="post_body">
+        <p>Message Here</p>
+
+      </div>
+
+      <div class="feed__inputOptions">
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">thumb_up</i>
+          <h4>like</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">comment</i>
+            <h4>comment</h4>
+
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">share</i>
+          <h4>shere</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">send</i>
+          <h4>send</h4>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- post3 ends -->
+
+    <!-- post4 starts -->
+    <div class="post">
+      <div class="post_header">
+        <i class="material-icons sidebar__topavatar">account_circle</i>
+        <div class="post__info">
+          <h2>AlwinAlexander</h2>
+          <p>Job Discription</p>
+        </div>
+      </div>
+
+      <div class="post_body">
+        <p>Message Here</p>
+
+      </div>
+
+      <div class="feed__inputOptions">
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">thumb_up</i>
+          <h4>like</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">comment</i>
+            <h4>comment</h4>
+
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">share</i>
+          <h4>shere</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">send</i>
+          <h4>send</h4>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- post4 ends -->
+
+    <!-- post5 starts -->
+    <div class="post">
+      <div class="post_header">
+        <i class="material-icons sidebar__topavatar">account_circle</i>
+        <div class="post__info">
+          <h2>MuthappanRajan</h2>
+          <p>Job Discription</p>
+        </div>
+      </div>
+
+      <div class="post_body">
+        <p>Message Here</p>
+
+      </div>
+
+      <div class="feed__inputOptions">
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">thumb_up</i>
+          <h4>like</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">comment</i>
+            <h4>comment</h4>
+
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">share</i>
+          <h4>shere</h4>
+        </div>
+
+        <div class="inputOption">
+          <i style="color: gray;" class="material-icons">send</i>
+          <h4>send</h4>
+        </div>
+
+      </div>
+
+    </div>
+    <!-- post5 ends -->
+    <!-- post__ends -->
+  </div>
+  <!-- feed__ends -->
+
+  <!-- widgets starts -->
+  <div class="widgets">
+    <div class="widgets__header">
+      <h4>Linked UI Clone</h4>
+      <i class="material-icons">info</i>
+    </div>
+
+    <div class="widget__article">
+      <div class="widget__articleLeft">
+        <i class="material-icons">fiber_manual_record</i>
+      </div>
+      <div class="widget__articleRight">
+        <h3>Coding LinedIn UI Clone</h3>
+        <p>Top news - 4500 readers</p>
+      </div>
+    </div>
+
+    <div class="widget__article">
+      <div class="widget__articleLeft">
+        <i class="material-icons">fiber_manual_record</i>
+      </div>
+      <div class="widget__articleRight">
+        <h3>Coding LinedIn UI Clone</h3>
+        <p>Top news - 4500 readers</p>
+      </div>
+    </div>
+
+    <div class="widget__article">
+      <div class="widget__articleLeft">
+        <i class="material-icons">fiber_manual_record</i>
+      </div>
+      <div class="widget__articleRight">
+        <h3>Coding LinedIn UI Clone</h3>
+        <p>Top news - 4500 readers</p>
+      </div>
+    </div>
+
+  </div>
+  <!-- widgets ends -->
+</div>
+<!-- main__body__ends -->
+
+</body>
+</html>
